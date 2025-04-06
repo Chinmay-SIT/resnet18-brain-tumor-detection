@@ -23,18 +23,15 @@ The repository is organized into modules for model training, evaluation, and vis
 
 Examples of MRI scans used for training the ResNet-18 model:
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="![tumor_sample](https://github.com/user-attachments/assets/39cf292a-5a5f-4084-9a13-5219de277ecc)
-" width="200"/><br><b>Tumor</b>
-    </td>
-    <td align="center">
-      <img src="![no_tumor_sample](https://github.com/user-attachments/assets/ed7042ca-f4e5-4f01-adc4-76d69a2e4d8c)
-" width="200"/><br><b>No Tumor</b>
-    </td>
-  </tr>
-</table>
+### Tumor: 
+
+![tumor_sample](https://github.com/user-attachments/assets/955f23c8-c43a-44e3-b40d-ea32ffd77144)
+
+
+### No Tumor:
+
+![no_tumor_sample](https://github.com/user-attachments/assets/226968a1-0e98-4fab-abd0-ae74b5c39482)
+
 
 ## Results
 

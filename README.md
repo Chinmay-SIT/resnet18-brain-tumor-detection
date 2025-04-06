@@ -1,23 +1,41 @@
-# resnet18-brain-tumor-detection
-🧠 Brain tumor detection using ResNet-18 on MRI scans with high accuracy and fast inference. Includes training code and evaluation metrics.
+# Brain Tumor Detection with ResNet-18
 
-This project presents an accurate and efficient approach to brain tumor classification on MRI scans using a ResNet-18 model enhanced with data augmentation, cosine learning rate scheduling, and mixed precision training.
+This project implements a deep learning system for classifying brain tumors from MRI scans using a lightweight ResNet-18 model. It focuses on achieving high diagnostic performance with minimal computational overhead, making it viable for real-world clinical applications.
+## Key Features
 
-## Highlights
-- Achieved **94.12% validation accuracy** and **90% test accuracy**
-- Lightweight and fast: **36.89 ms inference time**
-- Evaluated with ROC-AUC, PR curves, and confusion matrix
-- LaTeX paper and training code included
+  - Binary classification: Tumor vs. No Tumor
 
-## Project Structure
-- `code/` - Python scripts for training and evaluation
-- `figures/` - Plots and visualizations
-- `models/` - Saved PyTorch model
-- `paper/` - LaTeX source for the research paper
+  - Backbone: ResNet-18 for lightweight, high-speed inference
 
-## Setup
-```bash
-git clone https://github.com/yourusername/resnet18-brain-tumor-detection.git
-cd resnet18-brain-tumor-detection
-pip install -r requirements.txt
+  - Enhanced training: Data augmentation, mixed precision, cosine LR scheduler
 
+  - Evaluation metrics: Accuracy, F1-score, ROC-AUC, precision-recall curves
+
+  - Visual insights: Confusion matrix, training/validation curves
+
+  - Fast inference time: ~37 ms per image
+
+## Overview
+
+The repository is organized into modules for model training, evaluation, and visualization. Results are saved with classification metrics and plots for easy interpretation.
+### Results Summary
+
+  - Validation Accuracy: 94.12%
+
+  - Test Accuracy: 90%
+
+  - ROC-AUC Score: 0.94
+
+  - Precision-Recall Average: 0.96
+
+  - Inference Time: 36.89 ms per image
+
+## Future Directions
+
+   - Expand to multi-class tumor classification
+
+   - Apply explainability tools like Grad-CAM
+
+   - Explore ensemble methods for performance boost
+
+   - Investigate deployment as a clinical web application

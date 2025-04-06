@@ -19,6 +19,26 @@ This project implements a deep learning system for classifying brain tumors from
 
 The repository is organized into modules for model training, evaluation, and visualization. Results are saved with classification metrics and plots for easy interpretation.
 
+## Dataset
+
+This project uses the Brain MRI Images for Brain Tumor Detection dataset, publicly available on Kaggle:
+🔗 https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
+
+To use it:
+
+  1. Download and extract the dataset.
+
+  2. Organize it like this:
+
+    data/
+    └── Brain tumor detection/
+        ├── yes/
+        └── no/
+
+  3. Update the dataset_path in your training script accordingly.
+
+
+
 ## Sample Images from Dataset
 
 Examples of MRI scans used for training the ResNet-18 model:

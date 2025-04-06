@@ -18,6 +18,24 @@ This project implements a deep learning system for classifying brain tumors from
 ## Overview
 
 The repository is organized into modules for model training, evaluation, and visualization. Results are saved with classification metrics and plots for easy interpretation.
+
+## Sample Images from Dataset
+
+Examples of MRI scans used for training the ResNet-18 model:
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="![tumor_sample](https://github.com/user-attachments/assets/39cf292a-5a5f-4084-9a13-5219de277ecc)
+" width="200"/><br><b>Tumor</b>
+    </td>
+    <td align="center">
+      <img src="![no_tumor_sample](https://github.com/user-attachments/assets/ed7042ca-f4e5-4f01-adc4-76d69a2e4d8c)
+" width="200"/><br><b>No Tumor</b>
+    </td>
+  </tr>
+</table>
+
 ## Results
 
 ### Training vs Validation Curves

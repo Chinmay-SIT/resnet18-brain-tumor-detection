@@ -18,18 +18,32 @@ This project implements a deep learning system for classifying brain tumors from
 ## Overview
 
 The repository is organized into modules for model training, evaluation, and visualization. Results are saved with classification metrics and plots for easy interpretation.
-### Results Summary
+## Results
 
-  - Validation Accuracy: 94.12%
+### Training vs Validation Curves
+![image](https://github.com/user-attachments/assets/2a8ed615-46e4-4070-8277-394e7a03f479)
 
-  - Test Accuracy: 90%
+The training and validation accuracy/loss curves demonstrate consistent learning without signs of overfitting. The model achieves convergence within 30 epochs, showing stable generalization.
 
-  - ROC-AUC Score: 0.94
+📉 Confusion Matrix
+![Confusion_matrix](https://github.com/user-attachments/assets/88164a2c-e36c-4535-afc0-e3e8ffe0cda0)
 
-  - Precision-Recall Average: 0.96
+The confusion matrix illustrates the distribution of correct and incorrect predictions for each class. The model shows high sensitivity and specificity, with minimal misclassifications between tumor and non-tumor classes.
 
-  - Inference Time: 36.89 ms per image
+📈 ROC Curve
+![ROC](https://github.com/user-attachments/assets/89ae5ca7-dac4-404b-aff0-c31d1e365a30)
 
+The ROC curve shows the trade-off between true positive rate and false positive rate. An AUC close to 1.0 indicates excellent classification performance, even under threshold variations.
+
+📌 Precision-Recall Curve
+![Precision_recall](https://github.com/user-attachments/assets/b487eaab-a008-484a-926e-3d525aa0e0aa)
+
+This curve highlights the model’s ability to maintain high precision and recall, especially important for imbalanced datasets where false negatives are costly in medical diagnostics.
+
+⚡ Average Inference Time
+
+  36.89 ms/image
+  The model achieves fast inference, making it viable for real-time or clinical deployment on GPU-based systems.
 ## Future Directions
 
    - Expand to multi-class tumor classification

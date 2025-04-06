@@ -25,24 +25,28 @@ The repository is organized into modules for model training, evaluation, and vis
 
 The training and validation accuracy/loss curves demonstrate consistent learning without signs of overfitting. The model achieves convergence within 30 epochs, showing stable generalization.
 
-📉 Confusion Matrix
+### Confusion Matrix
+
 ![Confusion_matrix](https://github.com/user-attachments/assets/88164a2c-e36c-4535-afc0-e3e8ffe0cda0)
 
 The confusion matrix illustrates the distribution of correct and incorrect predictions for each class. The model shows high sensitivity and specificity, with minimal misclassifications between tumor and non-tumor classes.
 
-📈 ROC Curve
+### ROC Curve
+
 ![ROC](https://github.com/user-attachments/assets/89ae5ca7-dac4-404b-aff0-c31d1e365a30)
 
 The ROC curve shows the trade-off between true positive rate and false positive rate. An AUC close to 1.0 indicates excellent classification performance, even under threshold variations.
 
-📌 Precision-Recall Curve
+### Precision-Recall Curve
+
 ![Precision_recall](https://github.com/user-attachments/assets/b487eaab-a008-484a-926e-3d525aa0e0aa)
 
 This curve highlights the model’s ability to maintain high precision and recall, especially important for imbalanced datasets where false negatives are costly in medical diagnostics.
 
-⚡ Average Inference Time
+### Average Inference Time
 
   36.89 ms/image
+  
   The model achieves fast inference, making it viable for real-time or clinical deployment on GPU-based systems.
 ## Future Directions
 
